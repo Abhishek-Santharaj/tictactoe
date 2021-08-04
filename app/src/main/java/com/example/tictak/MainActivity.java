@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                     boolean gameIsOver = true;
                     for(int counterstate : gamestate){
 
-                        if(counterstate == 2) gameIsOver = true;
+                        if(counterstate == 2) gameIsOver = false;
 
                     }
                     if (gameIsOver){
